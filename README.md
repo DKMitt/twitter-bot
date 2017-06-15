@@ -1,6 +1,6 @@
 # Twitter-Bots
 
-Twitter Bot with Node.js  
+The Twitter Bots with Node.js applications interacts with the Twitter API to a variety of searches. In the first application, Twitter Favorite Bot - Recent Tweets, the API will allow us to search for tweets, and favorite the tweets that our application finds and the second application, Twitter-Follow-Bot - Popular Tweets, searchs for tweets using a query, then follows the user that did the tweeting. 
 
 
 ## Twitter Favorite Bot - Recent Tweets
@@ -66,6 +66,9 @@ Open up the command prompt and type  `node follow.js`  to run the application.
 
 
 ### References
-[Build a simple Twitter Bot with Node.js in just 38 lines of code](https://hackernoon.com/build-a-simple-twitter-bot-with-node-js-in-just-38-lines-of-code-ed92db9eb078)
-[Build a simple Twitter Bot with Node.js Part 2: DO MORE](https://hackernoon.com/build-a-simple-twitter-bot-with-node-js-part-2-do-more-2ef1e039715d)
++ [Build a simple Twitter Bot with Node.js in just 38 lines of code](https://hackernoon.com/build-a-simple-twitter-bot-with-node-js-in-just-38-lines-of-code-ed92db9eb078)
+
++ [Build a simple Twitter Bot with Node.js Part 2: DO MORE](https://hackernoon.com/build-a-simple-twitter-bot-with-node-js-part-2-do-more-2ef1e039715d)
+
++ [Twitter Rest API Reference Documentation](https://dev.twitter.com/rest/reference)
 
