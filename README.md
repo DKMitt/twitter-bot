@@ -13,7 +13,7 @@ download the repository
 
 run  `npm install`  to install the needed dependencies
 
-Edit file named `config.js` - this file stores the configuration details for the Twitter API. 
+Visit the [Twitter API](https://apps.twitter.com/app/new) and fill out the form. When done, click on the **Keys and Access Tokens** tab to view your consumer key/secret and access token key/secret. Copy these keys/secrets into your `config.js` file, this file stores the configuration details for the Twitter API. 
 
 The structure should be the following:
 
@@ -24,10 +24,7 @@ module.exports = {
   access_token_key: '',
   access_token_secret: ''
 }
-
 ```
-
-Visit the Twitter API and fill out the form. When done, click on the Keys and Access Tokens tab to view your consumer key/secret and access token key/secret. Copy these keys/secrets into your `config.js` file.
 
 In `app.js` you can edit the params variable to determine what to search for:
 
@@ -38,7 +35,6 @@ var params = {
   result_type: 'recent', //shows recent tweets
   lang: 'en' //language English
 }
-
 ```
 
 ### To Run App
@@ -62,9 +58,14 @@ var params = {
   result_type: 'popular', //shows popular tweets
   lang: 'en' //language English
 }
-
 ```
 
 
 ### To Run App
 Open up the command prompt and type  `node follow.js`  to run the application. 
+
+
+### References
+[Build a simple Twitter Bot with Node.js in just 38 lines of code](https://hackernoon.com/build-a-simple-twitter-bot-with-node-js-in-just-38-lines-of-code-ed92db9eb078)
+[Build a simple Twitter Bot with Node.js Part 2: DO MORE](https://hackernoon.com/build-a-simple-twitter-bot-with-node-js-part-2-do-more-2ef1e039715d)
+
