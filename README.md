@@ -1,6 +1,6 @@
 # Twitter-Bots
 
-The Twitter Bots with Node.js applications interacts with the Twitter API to a variety of searches. In the first application, Twitter Favorite Bot - Recent Tweets, the API will allow us to search for tweets, and favorite the tweets that our application finds and the second application, Twitter-Follow-Bot - Popular Tweets, searchs for tweets using a query, then follows the user that did the tweeting. 
+Twitter Bots using Node.js interacting with the Twitter API. In the first application, Twitter Favorite Bot - Recent Tweets, the API will allow us to search for tweets, and favorite the tweets that our application finds and the second application, Twitter-Follow-Bot - Popular Tweets, searches for tweets using a query, then follows the user that did the tweeting. 
 
 
 ## Twitter Favorite Bot - Recent Tweets
