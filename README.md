@@ -1,4 +1,4 @@
-# Twitter-Bot
+# Twitter-Bots
 
 Twitter Bot with Node.js  
 
@@ -11,9 +11,9 @@ This bot returns 10 tweets for a specified search query then favorites each of t
 
 download the repository
 
-run  npm install  to install the needed dependencies
+run  `npm install`  to install the needed dependencies
 
-Edit file named config.js - this file stores the configuration details for the Twitter API. 
+Edit file named `config.js` - this file stores the configuration details for the Twitter API. 
 
 The structure should be the following:
 
@@ -27,9 +27,9 @@ module.exports = {
 
 ```
 
-Visit the Twitter API and fill out the form. When done, click on the Keys and Access Tokens tab to view your consumer key/secret and access token key/secret. Copy these keys/secrets into your config.js file.
+Visit the Twitter API and fill out the form. When done, click on the Keys and Access Tokens tab to view your consumer key/secret and access token key/secret. Copy these keys/secrets into your `config.js` file.
 
-In app.js you can edit the params variable to determine what to search for:
+In `app.js` you can edit the params variable to determine what to search for:
 
 ```
 var params = {
@@ -42,9 +42,9 @@ var params = {
 ```
 
 ### To Run App
-Open up the command prompt and type node app.js to run the application.  
+Open up the command prompt and type `node app.js` to run the application.  
 
-  
+***  
 
 ## Twitter-Follow-Bot - Popular Tweets
 
@@ -53,7 +53,7 @@ This twitter bot follows users based on your inputs. It follows 10 users who rec
 
 ### How to use
 
-In follow.js you can edit the params variable to determine what to search for:
+In `follow.js` you can edit the params variable to determine what to search for:
 
 ```
 var params = {
@@ -67,4 +67,4 @@ var params = {
 
 
 ### To Run App
-Open up the command prompt and type  node follow.js  to run the application. 
+Open up the command prompt and type  `node follow.js`  to run the application. 
