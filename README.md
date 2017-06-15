@@ -9,7 +9,7 @@ This bot returns 10 tweets for a specified search query then favorites each of t
 
 ### How to use
 
-Star and download the repository
+download the repository
 
 run  npm install  to install the needed dependencies
 
@@ -32,7 +32,6 @@ Visit the Twitter API and fill out the form. When done, click on the Keys and Ac
 In app.js you can edit the params variable to determine what to search for:
 
 ```
-
 var params = {
   q: 'SEARCH_QUERY_HERE', //search query
   count: 10, //number of tweets to return
@@ -56,12 +55,15 @@ This twitter bot follows users based on your inputs. It follows 10 users who rec
 
 In follow.js you can edit the params variable to determine what to search for:
 
+```
 var params = {
   q: 'SEARCH_QUERY_HERE', //search query
   count: 10, //number of tweets to return
   result_type: 'popular', //shows popular tweets
   lang: 'en' //language English
 }
+
+```
 
 
 ### To Run App
