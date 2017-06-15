@@ -42,7 +42,7 @@ var params = {
 ```
 
 ### To Run App
-Open up the command prompt and type node app.js to run the application.
+Open up the command prompt and type node app.js to run the application.  
 
   
 
