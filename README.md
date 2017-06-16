@@ -13,11 +13,11 @@ download the repository
 
 run  `npm install`  to install the needed dependencies
 
-Visit the [Twitter API](https://apps.twitter.com/app/new) and fill out the form. When done, click on the **Keys and Access Tokens** tab to view your consumer key/secret and access token key/secret. Copy these keys/secrets into your `config.js` file, this file stores the configuration details for the Twitter API. 
+Visit the [Twitter API](https://apps.twitter.com/app/new){:target="_blank"} and fill out the form. When done, click on the **Keys and Access Tokens** tab to view your consumer key/secret and access token key/secret. Copy these keys/secrets into your `config.js` file, this file stores the configuration details for the Twitter API. 
 
 The structure should be the following:
 
-```
+```javascript
 module.exports = {
   consumer_key: '',
   consumer_secret: '',
@@ -28,7 +28,7 @@ module.exports = {
 
 In `app.js` you can edit the params variable to determine what to search for:
 
-```
+```javascript
 var params = {
   q: 'SEARCH_QUERY_HERE', //search query
   count: 10, //number of tweets to return
@@ -51,7 +51,7 @@ This twitter bot follows users based on your inputs. It follows 10 users who rec
 
 In `follow.js` you can edit the params variable to determine what to search for:
 
-```
+```javascript
 var params = {
   q: 'SEARCH_QUERY_HERE', //search query
   count: 10, //number of tweets to return
@@ -66,9 +66,9 @@ Open up the command prompt and type  `node follow.js`  to run the application.
 
 
 ### References
-+ [Build a simple Twitter Bot with Node.js in just 38 lines of code](https://hackernoon.com/build-a-simple-twitter-bot-with-node-js-in-just-38-lines-of-code-ed92db9eb078)
++ [Build a simple Twitter Bot with Node.js in just 38 lines of code](https://hackernoon.com/build-a-simple-twitter-bot-with-node-js-in-just-38-lines-of-code-ed92db9eb078){:target="_blank"}
 
-+ [Build a simple Twitter Bot with Node.js Part 2: DO MORE](https://hackernoon.com/build-a-simple-twitter-bot-with-node-js-part-2-do-more-2ef1e039715d)
++ [Build a simple Twitter Bot with Node.js Part 2: DO MORE](https://hackernoon.com/build-a-simple-twitter-bot-with-node-js-part-2-do-more-2ef1e039715d){:target="_blank"}
 
-+ [Twitter Rest API Reference Documentation](https://dev.twitter.com/rest/reference)
++ [Twitter Rest API Reference Documentation](https://dev.twitter.com/rest/reference){:target="_blank"}
 
